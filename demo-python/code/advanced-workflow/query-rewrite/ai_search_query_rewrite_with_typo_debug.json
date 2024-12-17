@@ -1,0 +1,19 @@
+{
+  "search": "Azure sarch",
+  "count": true,
+  "vectorQueries": [
+    {
+      "kind": "text",
+      "text": "Azure sarch",
+      "fields": "titleVector,contentVector",
+      "queryRewrites": "generative|count-5"
+    }
+  ],
+  "queryType": "semantic",
+  "semanticConfiguration": "my-semantic-config",
+  "captions": "extractive",
+  "answers": "extractive|count-3",
+  "queryLanguage": "en-US",
+  "queryRewrites": "generative|count-5",
+  "debug" : "queryRewrites"
+}

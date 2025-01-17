@@ -1,12 +1,8 @@
-POST https://[search-service-name].search.windows.net/indexes/hotels-sample-index/docs/search?api-version=2024-11-01-preview
+POST https://aisearch-std-eastus.search.windows.net/indexes/travel-reviews-01/docs/search?api-version=2024-11-01-preview
 Content-Type: application/json
 Authorization: 
+
 {
-    "search": "newer hotel near the water with a great restaurant",
-    "semanticConfiguration":"en-semantic-config",
-    "queryType":"semantic",
-    "queryRewrites":"generative|count-5",
-    "queryLanguage":"en-US",
-    "debug":"queryRewrites",
-    "top": 1
+    "search": "uk"
 }
+
